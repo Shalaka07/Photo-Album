@@ -42,14 +42,13 @@ def lambda_handler(event, context):
     rek_client = boto3.client('rekognition')
     
     for record in event['Records']:
-    #for record in 1:
+
         s3_record = record['s3']
         
         key = s3_record['object']['key']
         bucket = s3_record['bucket']['name']
         ttamp = record['eventTime']
-        #bucket="buckethw2"
-        #key="0DYvM03ML.jpg"
+     
         print ("I am triggering 3...")
         resp = rek_client.detect_labels(
             Image={'S3Object': {'Bucket': bucket, 'Name': key}},
