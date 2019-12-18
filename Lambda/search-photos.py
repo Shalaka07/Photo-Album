@@ -8,8 +8,8 @@ from aws_requests_auth.aws_auth import AWSRequestsAuth
 logger = logging.getLogger()
 es_host = 'vpc-photos-6zorlygrzniagf4nfzcegtqjka.us-east-1.es.amazonaws.com'
 es_index = 'photos'
-access_key = 'AKIAZVY435LIRPSPSKH2'
-secret_access_key = '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'
+access_key = 'xxxxxxxxxxxx'
+secret_access_key = 'xxxxxxxxxxxxxxx'
 region = 'us-east-1'
 
 client_run = boto3.client('lex-runtime',region_name='us-east-1')
