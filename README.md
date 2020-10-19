@@ -8,4 +8,4 @@ Lex, ElasticSearch, Rekognition, VPC, Lambda, API Gateway
 
 ## Architecture ##
 
-[Architecture] (https://github.com/palakraman17/Photo-Album/blob/master/photo_album.PNG)
+![Architecture] (https://github.com/palakraman17/Photo-Album/blob/master/photo_album.PNG)
